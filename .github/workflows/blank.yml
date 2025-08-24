@@ -15,6 +15,5 @@ jobs:
 
       - name: Run custom commands
         run: |
-          echo "This runs on GitHub servers, not on your PC"
-          echo "Project files are already here"
-          ls -la 
+          pip install requests
+
